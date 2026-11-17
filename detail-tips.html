@@ -1,0 +1,387 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Guide | LumiSpace</title>
+
+    <meta name="description" content="Panduan belajar praktis untuk membantu perjalanan belajarmu bersama LumiSpace.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">✦</span>
+                LumiSpace
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tips.html" class="active">Study Tips</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+            <button class="theme-btn" id="themeToggle"
+                aria-label="Ganti tema">
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- DETAIL HERO -->
+        <section class="page-hero detail-hero">
+
+            <div class="aurora aurora-one"></div>
+            <div class="aurora aurora-two"></div>
+
+            <div class="page-hero-content">
+
+                <span class="eyebrow">
+                    ✨ YOUR PERSONAL STUDY GUIDE
+                </span>
+
+                <h1 id="detailTitle">
+                    Study Guide
+                </h1>
+
+                <p id="detailSubtitle">
+                    Temukan cara belajar yang lebih baik
+                    bersama LumiSpace.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- DETAIL CONTENT -->
+        <section class="detail-section section">
+
+            <div class="detail-container">
+
+                <a href="tips.html" class="back-link">
+                    ← Kembali ke Study Tips
+                </a>
+
+                <article class="detail-card">
+
+                    <div class="detail-heading">
+
+                        <span class="tip-label" id="detailLabel">
+                            STUDY GUIDE
+                        </span>
+
+                        <div class="detail-icon" id="detailIcon">
+                            📚
+                        </div>
+
+                        <h2 id="contentTitle">
+                            Mulai Perjalanan Belajarmu
+                        </h2>
+
+                        <p id="detailDescription">
+                            Pilih kebiasaan belajar yang sesuai
+                            dan terapkan secara konsisten.
+                        </p>
+
+                    </div>
+
+
+                    <div class="detail-body">
+
+                        <h3>💡 Mengapa Ini Penting?</h3>
+
+                        <p id="detailWhy">
+                            Kebiasaan belajar yang baik dapat
+                            membantu kegiatan belajar menjadi
+                            lebih teratur dan efektif.
+                        </p>
+
+
+                        <h3>📌 Langkah-Langkah yang Bisa Dilakukan</h3>
+
+                        <ol id="detailSteps" class="detail-steps">
+                            <li>Mulai dari langkah sederhana.</li>
+                            <li>Tentukan tujuan yang ingin dicapai.</li>
+                            <li>Lakukan secara konsisten.</li>
+                        </ol>
+
+
+                        <div class="detail-note">
+
+                            <h3>🌟 Little Reminder</h3>
+
+                            <p id="detailReminder">
+                                Tidak harus langsung sempurna.
+                                Yang penting adalah terus mencoba
+                                dan berkembang.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <div class="detail-bottom">
+
+                    <p>
+                        Satu langkah kecil hari ini
+                        adalah awal dari kemajuanmu.
+                    </p>
+
+                    <a href="tips.html" class="btn btn-primary">
+                        Lihat Tips Lainnya →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">✦</span>
+                    LumiSpace
+                </a>
+
+                <p>
+                    Your little space to learn,
+                    grow, and shine.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="tips.html">Study Tips</a>
+                <a href="about.html">About</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 LumiSpace. Made with ✦ and curiosity.</p>
+        </div>
+
+    </footer>
+
+
+    <!-- DETAIL DATA -->
+    <script>
+
+        const studyGuides = {
+
+            jadwal: {
+                label: "PRODUCTIVITY",
+                icon: "⏰",
+                title: "Atur Jadwal Belajar",
+                subtitle: "Kelola waktumu, capai tujuanmu.",
+                heading: "Belajar dengan Jadwal yang Teratur",
+                description: "Mengatur jadwal belajar membantu kamu membagi waktu antara sekolah, tugas, istirahat, dan kegiatan lainnya.",
+                why: "Jadwal yang teratur membuat kegiatan belajar lebih terarah. Kamu juga dapat mengurangi kebiasaan menunda pekerjaan.",
+                steps: [
+                    "Catat semua tugas dan kegiatan yang harus diselesaikan.",
+                    "Tentukan waktu khusus untuk belajar setiap hari.",
+                    "Prioritaskan tugas berdasarkan tingkat kepentingannya.",
+                    "Sisihkan waktu istirahat di antara sesi belajar.",
+                    "Evaluasi jadwal dan sesuaikan jika diperlukan."
+                ],
+                reminder: "Jadwal yang baik adalah jadwal yang realistis dan bisa kamu jalankan."
+            },
+
+            fokus: {
+                label: "FOCUS",
+                icon: "🎯",
+                title: "Kurangi Gangguan",
+                subtitle: "Temukan fokus di tengah kesibukan.",
+                heading: "Ciptakan Suasana Belajar yang Nyaman",
+                description: "Fokus membantu kamu memahami materi dengan lebih baik tanpa terlalu sering teralihkan.",
+                why: "Lingkungan yang nyaman dapat membantu kamu berkonsentrasi dan menyelesaikan tugas dengan lebih terarah.",
+                steps: [
+                    "Pilih tempat belajar yang nyaman dan cukup terang.",
+                    "Rapikan meja sebelum mulai belajar.",
+                    "Jauhkan notifikasi yang tidak diperlukan.",
+                    "Kerjakan satu tugas dalam satu waktu.",
+                    "Beristirahat sejenak jika mulai kehilangan konsentrasi."
+                ],
+                reminder: "Tidak perlu memaksakan diri. Beri dirimu waktu untuk kembali berkonsentrasi."
+            },
+
+            catatan: {
+                label: "CREATIVITY",
+                icon: "📝",
+                title: "Buat Catatan Menarik",
+                subtitle: "Ubah materi menjadi catatan yang mudah dipahami.",
+                heading: "Buat Catatan yang Rapi dan Kreatif",
+                description: "Catatan yang terstruktur dapat membantu kamu mengingat dan memahami materi pelajaran.",
+                why: "Menyusun ulang informasi menggunakan bahasamu sendiri dapat membantu proses memahami materi.",
+                steps: [
+                    "Tuliskan judul materi dengan jelas.",
+                    "Gunakan poin-poin untuk informasi penting.",
+                    "Tambahkan warna untuk membedakan bagian materi.",
+                    "Buat diagram atau mind map jika diperlukan.",
+                    "Baca kembali catatan setelah selesai belajar."
+                ],
+                reminder: "Catatan yang baik bukan yang paling ramai, tetapi yang paling mudah kamu pahami."
+            },
+
+            bertahap: {
+                label: "LEARNING",
+                icon: "📚",
+                title: "Belajar Bertahap",
+                subtitle: "Sedikit demi sedikit, semakin memahami.",
+                heading: "Pahami Materi Secara Bertahap",
+                description: "Membagi materi menjadi bagian kecil dapat membuat kegiatan belajar terasa lebih ringan.",
+                why: "Belajar secara bertahap memberikan kesempatan untuk memahami konsep sebelum berpindah ke materi berikutnya.",
+                steps: [
+                    "Baca materi secara keseluruhan terlebih dahulu.",
+                    "Bagi materi menjadi beberapa bagian kecil.",
+                    "Pelajari satu bagian sebelum melanjutkan.",
+                    "Coba kerjakan latihan sederhana.",
+                    "Ulangi materi yang masih belum dipahami."
+                ],
+                reminder: "Kemajuan kecil tetap merupakan kemajuan. Nikmati proses belajarmu."
+            },
+
+            istirahat: {
+                label: "WELLNESS",
+                icon: "☁️",
+                title: "Jangan Lupa Istirahat",
+                subtitle: "Belajar juga membutuhkan waktu untuk beristirahat.",
+                heading: "Seimbangkan Belajar dan Istirahat",
+                description: "Istirahat merupakan bagian penting dari rutinitas belajar agar kamu tetap merasa nyaman.",
+                why: "Memberikan jeda di antara kegiatan belajar dapat membantu menjaga perhatian dan mengurangi rasa lelah.",
+                steps: [
+                    "Buat jeda istirahat di antara sesi belajar.",
+                    "Gunakan waktu istirahat untuk melakukan kegiatan ringan.",
+                    "Minum air putih secara cukup.",
+                    "Istirahatkan mata dari layar perangkat.",
+                    "Jaga waktu tidur agar tubuh mendapatkan istirahat yang cukup."
+                ],
+                reminder: "Produktif bukan berarti harus terus belajar tanpa jeda."
+            },
+
+            tujuan: {
+                label: "MOTIVATION",
+                icon: "🌟",
+                title: "Tetapkan Tujuan",
+                subtitle: "Punya tujuan, punya arah untuk berkembang.",
+                heading: "Tentukan Target Belajarmu",
+                description: "Tujuan belajar memberikan arah dan membantu kamu mengetahui hal yang ingin dicapai.",
+                why: "Target yang jelas dan realistis dapat membantu menjaga semangat serta membuat perkembangan lebih mudah dievaluasi.",
+                steps: [
+                    "Tentukan materi yang ingin kamu kuasai.",
+                    "Buat target sederhana dan realistis.",
+                    "Tulis target agar mudah diingat.",
+                    "Catat perkembangan yang sudah dicapai.",
+                    "Berikan apresiasi kepada diri sendiri atas usaha yang dilakukan."
+                ],
+                reminder: "Fokus pada perkembangan dirimu sendiri, bukan membandingkannya dengan orang lain."
+            }
+
+        };
+
+
+        // AMBIL TOPIK DARI URL
+
+        const params = new URLSearchParams(window.location.search);
+        const selectedTopic = params.get("topik");
+
+        const guide = studyGuides[selectedTopic];
+
+
+        // TAMPILKAN DETAIL
+
+        if (guide) {
+
+            document.title = guide.title + " | LumiSpace";
+
+            document.getElementById("detailTitle").textContent = guide.title;
+            document.getElementById("detailSubtitle").textContent = guide.subtitle;
+
+            document.getElementById("detailLabel").textContent = guide.label;
+            document.getElementById("detailIcon").textContent = guide.icon;
+
+            document.getElementById("contentTitle").textContent = guide.heading;
+            document.getElementById("detailDescription").textContent = guide.description;
+            document.getElementById("detailWhy").textContent = guide.why;
+            document.getElementById("detailReminder").textContent = guide.reminder;
+
+            const stepsContainer = document.getElementById("detailSteps");
+
+            stepsContainer.innerHTML = "";
+
+            guide.steps.forEach(function(step) {
+
+                const item = document.createElement("li");
+
+                item.textContent = step;
+
+                stepsContainer.appendChild(item);
+
+            });
+
+        } else {
+
+            document.getElementById("detailTitle").textContent = "Study Guide";
+            document.getElementById("detailSubtitle").textContent =
+                "Topik tidak ditemukan. Silakan pilih tips belajar terlebih dahulu.";
+
+            document.getElementById("contentTitle").textContent =
+                "Pilih Topik Belajar";
+
+            document.getElementById("detailDescription").textContent =
+                "Silakan kembali ke halaman Study Tips untuk memilih panduan yang ingin kamu baca.";
+
+            document.getElementById("detailWhy").textContent =
+                "Setiap topik memiliki panduan belajar yang berbeda.";
+
+            document.getElementById("detailSteps").innerHTML =
+                "<li>Kembali ke halaman Study Tips.</li><li>Pilih salah satu topik.</li><li>Baca panduan yang tersedia.</li>";
+
+            document.getElementById("detailReminder").textContent =
+                "Selamat belajar bersama LumiSpace!";
+        }
+
+    </script>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+```
